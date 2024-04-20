@@ -1,2 +1,2 @@
 # Audio-Signal-Processing-for-Musical-Applications
-This repository is dedicated to sharing code and algorithms for audio signal processing, with a particular focus on musical applications.
+This repository is dedicated to sharing code and algorithms for audio signal processing, with a particular focus on musical applications. You will find practical examples and implementations of DSP algorithms in Python, as well as other programming languages, which can be used to analyze, process, and enhance audio signals. Whether you are a musician, a sound engineer, or an enthusiast of music and technology, here you can find tools and techniques to explore the vast world of digital audio.
