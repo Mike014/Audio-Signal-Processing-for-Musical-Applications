@@ -12,7 +12,7 @@ This exercise is part of a course on Audio Signal Processing for Music Applicati
     The function should return a numpy array that
     contains 10 samples of the audio.
     """
-    ## Your code here
+    
 
 
 2. **Basic operations with audio**: In this part, you are required to complete the function `minMaxAudio(inputFile)` that reads an audio file and returns the minimum and the maximum values of the audio samples in that file. The input to the function is the wav file name (including the path) and the output should be two floating point values returned as a tuple.
@@ -25,7 +25,7 @@ This exercise is part of a course on Audio Signal Processing for Music Applicati
     A tuple of the minimum and the maximum value of the audio
     samples, like: (min_val, max_val)
     """
-    ## Your code here
+    
 
 
 3. **Python array indexing**: In this part, you are required to complete the function `hopSamples(x,M)` that given a numpy array x, the function returns every Mth element in x, starting from the first element. The input arguments to this function are a numpy array x and a positive integer M such that M is less than the number of elements in x. The output of this function should be a numpy array.
@@ -36,7 +36,7 @@ This exercise is part of a course on Audio Signal Processing for Music Applicati
     inputFile: file name of the wav file (including path)
     M: downsampling factor (positive integer)
     """
-    ## Your code here
+    
 
 # DFT and IDFT - Exercise
 
@@ -56,7 +56,7 @@ This exercise is part of a course on Audio Signal Processing for Music Applicati
     The function should return a numpy array
     x (numpy array) = The generated sinusoid (use np.cos())
     """
-    ## Your code here
+    
 
 
 2. **Generate a complex sinusoid**: In this part, you are required to complete the function `genComplexSine(k, N)` that generates the complex sinusoid that is used in DFT computation of length N (samples), corresponding to the frequency index k.
@@ -72,7 +72,7 @@ This exercise is part of a course on Audio Signal Processing for Music Applicati
     cSine (numpy array) = The generated complex sinusoid
     (length N)
     """
-    ## Your code here
+    
 
 
 3. **Implement the discrete Fourier transform (DFT)**: In this part, you are required to complete the function `DFT(x)` that implements the discrete Fourier transform (DFT). Given a sequence x of length N, the function should return its DFT of length N, its spectrum, with the frequency indexes ranging from 0 to N − 1.
@@ -85,7 +85,7 @@ This exercise is part of a course on Audio Signal Processing for Music Applicati
     The function should return a numpy array of length N
     X (numpy array) = The N point DFT of the input sequence x
     """
-    ## Your code here
+   
 
 
 
@@ -100,7 +100,7 @@ This exercise is part of a course on Audio Signal Processing for Music Applicati
     x (numpy array) = The IDFT of the frequency spectrum X
     (length N)
     """
-    ## Your code here
+    
 
 
 # AUDIO_PLOTTING_AND_FILTERING Exercise
