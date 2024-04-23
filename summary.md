@@ -103,5 +103,7 @@ This exercise is part of a course on Audio Signal Processing for Music Applicati
     ## Your code here
 
 
+# AUDIO_PLOTTING_AND_FILTERING Exercise
 
+The AUDIO_PLOTTING_AND_FILTERING.py script reads an audio file, converts the audio data to a floating point format between -1 and 1, and creates several plots to visualize the audio data in the time and frequency domain. It creates a graph of the audio data in the time domain, a spectrogram of the audio data, and a spectrogram of the magnitude of the audio data.
     
