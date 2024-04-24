@@ -1,4 +1,4 @@
-## Class Sinusoid 
+## Signal
 
 # ClassSinusoid.py 
 - This file defines a Sinusoid class that represents a sinusoidal signal. The class has methods to evaluate the signal at an array of points in time (evaluate) and to generate a wave by sampling the signal at a certain framerate (make_wave). The file also includes an example of how to create a Sinusoid object, generate a wave from it, and plot the magnitude spectrum of the wave.
