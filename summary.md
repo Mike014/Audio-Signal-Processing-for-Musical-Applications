@@ -107,3 +107,5 @@ This exercise is part of a course on Audio Signal Processing for Music Applicati
 
 The AUDIO_PLOTTING_AND_FILTERING.py script reads an audio file, converts the audio data to a floating point format between -1 and 1, and creates several plots to visualize the audio data in the time and frequency domain. It creates a graph of the audio data in the time domain, a spectrogram of the audio data, and a spectrogram of the magnitude of the audio data.
     
+# ClassSinusoid.py 
+This file defines a Sinusoid class that represents a sinusoidal signal. The class has methods to evaluate the signal at an array of points in time (evaluate) and to generate a wave by sampling the signal at a certain framerate (make_wave). The file also includes an example of how to create a Sinusoid object, generate a wave from it, and plot the magnitude spectrum of the wave.
