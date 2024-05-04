@@ -8,3 +8,15 @@
 
 # TriangleWaves.py
 - The TriangleWaves.py file generates a triangle wave with a specified frequency, amplitude, and duration. Similar to the square wave, the spectrum of the triangle wave is computed using the FFT from scipy.fft, and then the wave and its spectrum are plotted.
+
+# Dist&Sat.py
+- This script demonstrates the application of distortion and saturation effects to an audio signal.
+
+# ExpoChirp.py
+- This script defines the ExpoChirp class for generating an exponential chirp signal. An exponential chirp is a signal where the frequency increases exponentially over time. 
+
+# Linear chirp.py
+- This script introduces the Chirp class for creating a linear chirp signal, where the frequency increases linearly over time.
+
+# Leakage.py 
+- This script is focused on demonstrating the concept of spectral leakage in the Discrete Fourier Transform (DFT) and how windowing (using a Hamming window) can mitigate it.
