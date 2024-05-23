@@ -9,5 +9,6 @@
 # Fast Fourier Transform (FFT)
 - The FFT is an efficient algorithm for computing the DFT. It significantly reduces the computational complexity of the transformation.
 
-# Visualizing Frequency Components
-After computing the DFT or FFT of a signal, it's useful to visualize its frequency components to analyze the spectral content of the signal.
+# Short-Time Fourier Transform (STFT)
+- The Short-Time Fourier Transform (STFT) is a technique that provides a time-frequency analysis of a signal, showing how the frequency content of the signal changes over time.
+The Inverse Short-Time Fourier Transform (ISTFT) is the process that reconstructs the original signal from the time-frequency representation provided by the STFT.
