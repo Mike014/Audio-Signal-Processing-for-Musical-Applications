@@ -1,22 +1,23 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy.fft import fft
 
-# FFT 
-fs = 8000 # Sampling frequency
-t = np.arange(0,1,1/fs) # Time vector
-f1, f2 = 1000, 2500 # Frequencies of the signals
-signal = 0.5*np.sin(2*np.pi*f1*t) + 0.5*np.sin(2*np.pi*f2*t) # Signal
+# Create a signal
+fs = 44100
+duration = 5
+f1 = 40
+f2 = 100
+f3 = 200
+t = np.linspace(0, duration, int(fs*duration))# Create a time vector
+complex_signal = np.sin(2*np.pi*f1*t) + 0.5*np.sin(2*np.pi*f2*t) + 0.2*np.sin(2*np.pi*f3*t)# Create a complex signal
 
-# FFT with numpy
-X = np.fft.fft(signal)
 
-# Plot
-frequencies = np.fft.fftfreq(len(X), 1/fs)
-plt.figure(figsize=(14, 5))
-plt.stem(frequencies, np.abs(X), 'b', markerfmt='bo', basefmt='r-')
-plt.title('FFT - Magnitude')
-plt.xlabel('Frequency (Hz)')
-plt.ylabel('Magnitude')
-plt.xlim(0, fs/2)
-plt.grid()
+
+# Supponiamo che 'signal' sia il tuo segnale audio e 'fs' la frequenza di campionamento
+fft_result = fft(complex_signal)
+frequencies = np.linspace(0, fs, len(complex_signal))
+
+plt.plot(frequencies, np.abs(fft_result))
+plt.xlabel('Frequenza (Hz)')
+plt.ylabel('Ampiezza')
 plt.show()
